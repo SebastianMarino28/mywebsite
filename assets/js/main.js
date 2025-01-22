@@ -111,7 +111,7 @@
 
 					var href = $(this).attr('href');
 
-					event.preventDefault();
+					//event.preventDefault();
 					event.stopPropagation();
 
 					// Hide.
