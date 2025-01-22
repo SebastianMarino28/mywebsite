@@ -111,16 +111,21 @@
 
 					var href = $(this).attr('href');
 
-					//event.preventDefault();
-					event.stopPropagation();
-
+					if (href != "content/myresume.pdf") {
+						event.preventDefault();
+						event.stopPropagation();
+					}
+					
+					
 					// Hide.
 						$menu._hide();
 
 					// Redirect.
+					if (href != "content/myresume.pdf") {
 						window.setTimeout(function() {
 							window.location.href = href;
 						}, 350);
+					}
 
 				});
 
