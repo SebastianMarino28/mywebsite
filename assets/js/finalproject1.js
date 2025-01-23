@@ -1,4 +1,4 @@
-
+// cpe 123 (computational art) final project
 var Robt = false;
 var locR, rotr1, rotr2, dir;
 var robstatic, leg2static;
